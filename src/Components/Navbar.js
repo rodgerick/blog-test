@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <h1>Example</h1>
+      <h1>THIS BLOG IS COOL</h1>
       <div className="links">
         <a href="/">Home</a>
         <a href="/About">About</a>
