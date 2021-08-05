@@ -1,4 +1,4 @@
-const CreateBlog = () => {
+const Create = () => {
   return (
     <div className="create">
       <h2>Create a new blog</h2>
@@ -6,4 +6,4 @@ const CreateBlog = () => {
   );
 }
  
-export default CreateBlog;
+export default Create;
