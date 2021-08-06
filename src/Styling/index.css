@@ -2,6 +2,11 @@
 
 
 /* base styles */
+/* body {
+  background: linear-gradient(135deg, rgba(85,239,203,1) 0%,rgba(30,87,153,1) 0%,rgba(85,239,203,1) 0%,rgba(91,202,255,1) 100%);
+  color: #f7f7f7;
+} */
+
 * {
   margin: 0;
   font-family: "Quicksand";
@@ -42,7 +47,8 @@
   border-bottom: 1px solid #fafafa;
 }
 .blog-preview:hover{
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  box-shadow: 2px 6px 10px rgba(0,0,0,0.1);
+  background: blur(20px);
 }
 .blog-preview h2{
   font-size: 20px;
@@ -52,3 +58,13 @@
 .blog-preview img{
   width: 25%;
 }
+.blog-preview a{
+  text-decoration: none;
+}
+
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+
