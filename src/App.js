@@ -4,11 +4,10 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Create from "./Pages/Create";
 import About from "./Pages/About";
 import BlogDetails from "./Components/BlogDetails";
-import Footer from "./Components/Footer";
+//import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <>
     <Router>
       <div className="App">
         <Navbar />
@@ -31,8 +30,6 @@ function App() {
       </div>
       
     </Router>
-      <Footer />
-      </>
   );
 }
 
