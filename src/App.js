@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Create from "./Pages/Create";
 import About from "./Pages/About";
 import BlogDetails from "./Components/BlogDetails";
+//import ImageCarousel from "./Components/ImageCarousel";
 //import Footer from "./Components/Footer";
 
 function App() {
